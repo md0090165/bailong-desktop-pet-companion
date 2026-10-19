@@ -1,0 +1,1 @@
+本文件夹保留随包运行库的许可文本。源码项目和美术素材的许可另见ASSETS.md。Qt/PySide来源：https://download.qt.io/official_releases/QtForPython/ 和 https://download.qt.io/official_releases/qt/6.9/ 。

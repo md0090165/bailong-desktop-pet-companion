@@ -1,0 +1,140 @@
+[
+  {
+    "name": "defusedxml",
+    "version": "0.7.1",
+    "license": "PSF 2.0",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "freetype",
+    "version": "2.13.3",
+    "license": "GPL-2.0-only or FTL",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "graphite2",
+    "version": "1.3.14",
+    "license": "LGPL-2.1-or-later",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "harfbuzz",
+    "version": "10.2.0",
+    "license": "MIT",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "icu",
+    "version": "73.1",
+    "license": "MIT",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "jpeg",
+    "version": "9f",
+    "license": "IJG",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "libavif",
+    "version": "1.3.0",
+    "license": "BSD-2-Clause",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "libffi",
+    "version": "3.4.4",
+    "license": "MIT",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "libmpdec",
+    "version": "4.0.0",
+    "license": "BSD-2-Clause",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "libpng",
+    "version": "1.6.50",
+    "license": "Zlib",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "libwebp-base",
+    "version": "1.6.0",
+    "license": "BSD-3-Clause",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "libzlib",
+    "version": "1.3.1",
+    "license": "Zlib",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "pcre2",
+    "version": "10.46",
+    "license": "BSD-3-Clause WITH PCRE2-exception",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "pillow",
+    "version": "12.0.0",
+    "license": "HPND AND TCL",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "psutil",
+    "version": "7.0.0",
+    "license": "BSD-3-Clause",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "pyside6",
+    "version": "6.9.2",
+    "license": "LGPL-3.0-only",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "python",
+    "version": "3.13.9",
+    "license": "PSF-2.0",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "qtbase",
+    "version": "6.9.2",
+    "license": "LGPL-3.0-only",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "qtsvg",
+    "version": "6.9.2",
+    "license": "LGPL-3.0-only",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "qtwebengine",
+    "version": "6.9.2",
+    "license": "LGPL-3.0-only",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "ucrt",
+    "version": "10.0.22621.0",
+    "license": "LicenseRef-MicrosoftWindowsSDK10",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "vc14_runtime",
+    "version": "14.44.35208",
+    "license": "LicenseRef-MicrosoftVisualCpp2015-2022Runtime",
+    "licenseFilesIncluded": true
+  },
+  {
+    "name": "zstd",
+    "version": "1.5.7",
+    "license": "BSD-3-Clause AND GPL-2.0-or-later",
+    "licenseFilesIncluded": true
+  }
+]
