@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "initial": {
+    "closeness": 20.0,
+    "trust": 50.0
+  },
+  "baseline": {
+    "valence": 0.0,
+    "energy": 50.0
+  },
+  "max_per_turn": {
+    "closeness": 0.6,
+    "trust": 0.3,
+    "valence": 12.0,
+    "energy": 12.0
+  },
+  "daily_gain_cap": {
+    "closeness": 2.4,
+    "trust": 1.2
+  },
+  "growth_interval_seconds": 90,
+  "mood_half_life_minutes": 30,
+  "quiet_minutes": 30,
+  "events": {
+    "quiet": {
+      "label": "安靜陪伴",
+      "phrases": [
+        "請安靜",
+        "我要專心",
+        "需要專心",
+        "別打擾",
+        "不要黏",
+        "不用動作",
+        "不要播放動畫"
+      ],
+      "closeness": 0.1,
+      "trust": 0.1,
+      "valence": 0,
+      "energy": 0,
+      "emotion": "平靜"
+    },
+    "rest": {
+      "label": "準備休息",
+      "phrases": [
+        "晚安",
+        "準備睡",
+        "要睡了",
+        "去睡覺",
+        "一起休息"
+      ],
+      "closeness": 0.2,
+      "trust": 0.1,
+      "valence": 2,
+      "energy": -12,
+      "emotion": "睏倦"
+    },
+    "comfort": {
+      "label": "溫柔陪伴",
+      "phrases": [
+        "我很難過",
+        "我好難過",
+        "我不開心",
+        "壓力很大",
+        "我好累",
+        "我很累",
+        "我很傷心"
+      ],
+      "closeness": 0.2,
+      "trust": 0.1,
+      "valence": 0,
+      "energy": -4,
+      "emotion": "安慰"
+    },
+    "praise": {
+      "label": "受到肯定",
+      "phrases": [
+        "謝謝你",
+        "謝謝白龍",
+        "辛苦你了",
+        "你好厲害",
+        "好聰明",
+        "做得很好",
+        "很棒",
+        "謝謝",
+        "感謝你",
+        "你好棒",
+        "太厲害了",
+        "真厲害"
+      ],
+      "closeness": 0.5,
+      "trust": 0.2,
+      "valence": 12,
+      "energy": 4,
+      "emotion": "害羞"
+    },
+    "affection": {
+      "label": "親切互動",
+      "phrases": [
+        "喜歡你",
+        "抱抱",
+        "貼貼",
+        "摸摸頭"
+      ],
+      "closeness": 0.6,
+      "trust": 0.2,
+      "valence": 10,
+      "energy": 2,
+      "emotion": "親暱"
+    },
+    "celebration": {
+      "label": "分享好消息",
+      "phrases": [
+        "我完成了",
+        "我終於完成",
+        "成功了",
+        "通過了",
+        "我做到了"
+      ],
+      "closeness": 0.3,
+      "trust": 0.1,
+      "valence": 10,
+      "energy": 8,
+      "emotion": "開心"
+    },
+    "conversation": {
+      "label": "日常交流",
+      "phrases": [],
+      "closeness": 0.2,
+      "trust": 0.1,
+      "valence": 0,
+      "energy": 0,
+      "emotion": "平靜"
+    }
+  }
+}

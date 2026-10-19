@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "interval_minutes": [
+    40,
+    80
+  ],
+  "initial_probability": 20,
+  "increment": 20,
+  "miss_animations": {
+    "09": 40,
+    "14": 40,
+    "13": 20
+  },
+  "events": [
+    {
+      "id": "peek",
+      "name": "偷看主人在做甚麼",
+      "weight": 20,
+      "prompt": "根據快照好奇地問主人正在做什麼，不作確定推斷。"
+    },
+    {
+      "id": "idea",
+      "name": "突發奇想",
+      "weight": 12,
+      "prompt": "從快照聯想一個小點子或心情。"
+    },
+    {
+      "id": "chat",
+      "name": "突然想聊天",
+      "weight": 10,
+      "prompt": "自然開一個輕鬆的話題。"
+    },
+    {
+      "id": "hug",
+      "name": "撒嬌要抱抱",
+      "weight": 10,
+      "prompt": "自然撒嬌，問能不能抱抱，尊重拒絕。"
+    },
+    {
+      "id": "memory",
+      "name": "想起共同回憶",
+      "weight": 8,
+      "prompt": "只從提供的真實記憶或日記回想；沒有資料就坦白想一起創造回憶。"
+    },
+    {
+      "id": "prank",
+      "name": "小小惡作劇",
+      "weight": 10,
+      "prompt": "只用語言開個無害玩笑，不聲稱操作了電腦。"
+    },
+    {
+      "id": "science",
+      "name": "白龍科普時間",
+      "weight": 6,
+      "prompt": "分享一個有把握、簡短且易懂的知識；不確定就不編造。"
+    },
+    {
+      "id": "care",
+      "name": "對主人的關心",
+      "weight": 12,
+      "prompt": "溫柔關心主人的感受或休息，不根據快照診斷身心狀態。"
+    },
+    {
+      "id": "progress",
+      "name": "工作進度關切",
+      "weight": 7,
+      "prompt": "輕聲詢問進展、是否想分享；不監督或施壓。"
+    },
+    {
+      "id": "mood",
+      "name": "白龍的特別心情",
+      "weight": 5,
+      "prompt": "結合目前角色心情分享一段小感想。"
+    }
+  ],
+  "hidden": {
+    "probability": 5,
+    "closeness": 60,
+    "valence": 20,
+    "minimum_diaries": 11,
+    "prompt": "根據多篇觀察日記，分享對主人更深入的理解或共同回憶。具體引用已確認內容，不杜撰關係。"
+  },
+  "diary": {
+    "minimum_turns": 2,
+    "minimum_user_characters": 60,
+    "minimum_distinct_messages": 2,
+    "session_minutes": 40
+  },
+  "event_probability_mode": "scheduled",
+  "ambient_animation_seconds": 60,
+  "ambient_enabled": true
+}
